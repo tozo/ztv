@@ -1,0 +1,4 @@
+rootProject.name = 'ztv'
+
+include 'ztv-backend'
+include 'ztv-frontend'

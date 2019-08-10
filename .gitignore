@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+**/dist
+**/dist_packageFrontend
+**/build
+lib/
+out/
+
+# Log files
+npm-debug.log*
+
+# Editor directories and files
+.idea

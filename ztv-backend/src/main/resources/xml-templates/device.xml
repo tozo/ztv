@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0" xmlns:th="http://www.thymeleaf.org">
+    <specVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </specVersion>
+    <URLBase th:text="${data.baseURL}">URLBase</URLBase>
+    <device>
+        <deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
+        <friendlyName th:text="${data.friendlyName}">friendlyName</friendlyName>
+        <manufacturer th:text="${data.manufacturer}">manufacturer</manufacturer>
+        <modelName th:text="${data.modelNumber}">modelNumber</modelName>
+        <modelNumber th:text="${data.modelNumber}">modelNumber</modelNumber>
+        <serialNumber></serialNumber>
+        <UDN th:text="${'uuid:' + data.deviceID}">deviceID</UDN>
+    </device>
+</root>

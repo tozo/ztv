@@ -1,0 +1,19 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    springBootVersion = "2.1.6.RELEASE"
+    jdkVersion = 11
+}
+
+subprojects {
+    group "ie.tozo"
+    version "1.0-SNAPSHOT"
+
+    repositories {
+        jcenter()
+    }
+}
