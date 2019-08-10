@@ -5,6 +5,7 @@ node_modules
 **/build
 lib/
 out/
+.gradle/
 
 # Log files
 npm-debug.log*
